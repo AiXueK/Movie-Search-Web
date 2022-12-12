@@ -1,0 +1,18 @@
+-- update "MovieFinder" set review=array['{"username":"AK","rating": 5}']::jsonb[] where id=78129;
+-- UPDATE "MovieFinder" SET review=array['{"rating": 5, "content":["nice", "good"]}']::jsonb[] where id=104135;
+
+-- update "MovieFinder" set review=null;
+-- update "MovieFinder" set rating=null;
+-- update "MovieFinder" set ratings=null;
+-- update "users" set review=null;
+-- commit;
+-- update "MovieFinder" set review[1]=('{"rating": 5, "username":"AA" "content":["nice", "good"]}'::jsonb) where id=78128;
+-- select review from "MovieFinder" where id=78128
+-- alter JSONB search dictionary
+-- commit;
+-- select review from "MovieFinder" where id=104135;
+-- select ratings from "MovieFinder" where id = 78128
+-- select review from "MovieFinder"
+-- select review from "users";
+-- select * from "users";
+-- select * from "MovieFinder"
